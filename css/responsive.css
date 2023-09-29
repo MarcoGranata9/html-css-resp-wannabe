@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }        
+}
+
+@media screen and (max-width: 375px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+}
